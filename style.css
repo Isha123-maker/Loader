@@ -1,0 +1,27 @@
+#inner{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height :100px;
+    width:100px;
+}
+
+.loader{
+    height : 200px;
+    width : 200px;
+    border-radius: 50%;
+    border: 20px solid #8B5DFF;
+    border-top: 20px solid #563A9C;
+    animation: spinanimation 2s ease-in-out 0s  infinite normal;
+    
+}
+
+@keyframes spinanimation {
+    from {
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
